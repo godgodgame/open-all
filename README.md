@@ -36,32 +36,48 @@ Open All is a powerful tool that allows users to chat with multiple large model 
 |---|---|
 |![theme-dark-1](./assets/demo_01.png)|![theme-dark-2](./assets/demo_02.png)|
 
-## Features
-1. Support for multiple large models:
-   + [Anthropic Claude  models](https://anthropic.com)
-   + [Google Gemini  models](https://developers.generativeai.google)
-   + [Mistral  models](https://mistral.ai/)
-   + [ByteDance Doubao large model](https://console.volcengine.com/ark/region:ark+cn-beijing/model)
-   + [Baidu ERNIE  models](https://cloud.baidu.com/doc/WENXINWORKSHOP/index.html)
-   + [Alibaba Tongyi Qianwen  models](https://help.aliyun.com/document_detail/2400395.html)
-   + [iFLYTEK Xinghuo Cognitive Large Model](https://www.xfyun.cn/doc/spark/Web.html)
-   + [Zhipu ChatGLM  models](https://bigmodel.cn)
-   + [Tencent Mixtral large model](https://cloud.tencent.com/document/product/1729)
-   + [Moonshot AI](https://platform.moonshot.cn/)
-   + [Baichuan large model](https://platform.baichuan-ai.com)
-   + [MINIMAX](https://api.minimax.chat/)
-   + [Groq](https://wow.groq.com/)
-   + [Lingyi Wanwu](https://platform.lingyiwanwu.com/)
-   + [Jieyue Xingchen](https://platform.stepfun.com/)
-   + [CozeCn](https://www.coze.cn/)
-   + [CozeCom](https://www.coze.com/)
-   + [Cohere](https://cohere.com/)
-   + [DeepSeek](https://www.deepseek.com/)
-   + [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/)
 
-2. Compatible with large language models that conform to the OpenAI interface
-3. Chat with multiple large language models simultaneously
-4. Customizable agents
+## Supported AI
+
+| AI Bot | API | Web Access | Description |
+| - | - | - | - |
+| [Anthropic Claude](https://anthropic.com) | Yes | No | |
+| [Baichuan](https://platform.baichuan-ai.com) | Yes | No | |
+| [ChatGPT](https://chat.openai.com) | Yes | No | |
+| [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) | Yes | No | |
+| [Cohere](https://cohere.com/) | Yes | No | |
+| [CozeCn](https://www.coze.cn/) | Yes | No | |
+| [CozeCom](https://www.coze.com/) | Yes | No | |
+| [DeepSeek](https://www.deepseek.com/) | Yes | No | |
+| [Doubao](https://console.volcengine.com/ark/region:ark+cn-beijing/model) | Yes | No | |
+| [Wenxin Yiyan](https://cloud.baidu.com/doc/WENXINWORKSHOP/index.html) | Yes | No | |
+| [Gemini](https://gemini.google.com/) | Yes | No | |
+| [ChatGLM](https://bigmodel.cn) | Yes | Yes | |
+| [Groq](https://wow.groq.com/) | Yes | No | |
+| [HunYuan](https://cloud.tencent.com/document/product/1729) | Yes | No | |
+| [MINIMAX](https://api.minimax.chat/) | Yes | No | |
+| [Mistral](https://mistral.ai/) | Yes | Yes | |
+| [Moonshot AI](https://platform.moonshot.cn/) | Yes | No | |
+| [Qianwen](https://help.aliyun.com/document_detail/2400395.html) | Yes | Yes | |
+| [StepFun](https://platform.stepfun.com/) | Yes | No | |
+| [Spark](https://www.xfyun.cn/doc/spark/Web.html) | Yes | No | |
+| [Lingyi Wanwu](https://platform.lingyiwanwu.com/) | Yes | Yes | |
+| [HuggingChat](https://huggingface.co/chat/) | No | Yes | |
+
+## Features
+
+1. Compatible with large language models that conform to the OpenAI interface
+2. Chat with multiple large language models simultaneously
+3. Customizable agents
+4. Enable/disable any model at any time
+5. One-click to inherit chat history from other models
+6. Supports multiple languages (Chinese, English)
+7. Supports Windows, macOS, and Linux
+
+
+## Privacy
+
+All chat history, settings and login data are saved locally on your computer.
 
 ## Contributing
 

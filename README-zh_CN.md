@@ -1,31 +1,6 @@
-<p align="center">
-  <img width="160" src="./assets/logo.png" />
-  <p align="center">🚀 Power Your World with AI - Explore, Extend, Empower.</p>
-</h2>
-
 # Open All
 
-
-[![License][License-image]][License-url]
-[![Releases][Releases-image]][Releases-url]
-[![Wiki][Wiki-image]][Wiki-url]
-[![PR][PRs-image]][PRs-url]
-
-[License-image]: https://img.shields.io/github/license/godgodgame/open-all?label=License&style=flat-square&color=orange
-[Releases-image]: https://img.shields.io/github/release/godgodgame/open-all?label=Release&style=flat-square&color=blue
-[Wiki-image]: https://img.shields.io/badge/wiki-项目文档-black?style=flat-square
-[PRs-image]: https://img.shields.io/badge/PRs-welcome-pink?style=flat-square
-
-[License-url]: https://github.com/godgodgame/open-all/blob/master/LICENSE
-[Releases-url]: https://github.com/godgodgame/open-all/releases
-[Wiki-url]: https://github.com/godgodgame/open-all/wiki
-[PRs-url]: https://github.com/godgodgame/open-all/pulls
-
-
-<p align="center">
-  <a href="./README.md"><img alt="README in English" src="https://img.shields.io/badge/English-d9d9d9"></a>
-  <a href="./README-zh_CN.md"><img alt="简体中文版自述文件" src="https://img.shields.io/badge/简体中文-d9d9d9"></a>
-</p>
+[![License](https://img.shields.io/github/license/godgodgame/open-all?label=License&style=flat-square&color=orange)](https://github.com/godgodgame/open-all/blob/master/LICENSE) [![Releases](https://img.shields.io/github/release/godgodgame/open-all?label=Release&style=flat-square&color=blue)](https://github.com/godgodgame/open-all/releases) [![Wiki](https://img.shields.io/badge/wiki-%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3-black?style=flat-square)](https://github.com/godgodgame/open-all/wiki) [![PR](https://img.shields.io/badge/PRs-welcome-pink?style=flat-square)](https://github.com/godgodgame/open-all/pulls)
 
 ## 简介
 
@@ -34,52 +9,65 @@ Open All是一款强大的工具，允许用户通过 API 同时与多个大模�
 ## 演示
 
 |Preview|Preview|
-|---|---|
+|-|-|
 |![theme-dark-1](./assets/demo_01.png)|![theme-dark-2](./assets/demo_02.png)|
 
+## 支持的AI
+
+|AI 机器人|API|网页访问|说明|
+|-|-|-|-|
+|[Anthropic Claude](https://anthropic.com)|是|否||
+|[百川](https://platform.baichuan-ai.com)|是|否||
+|[ChatGPT](https://chat.openai.com)        |是|否||
+|[Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/)|是|否||
+|[Cohere](https://cohere.com/)|是|否||
+|[CozeCn](https://www.coze.cn/)|是|否||
+|[CozeCom](https://www.coze.com/)|是|否||
+|[DeepSeek](https://www.deepseek.com/)|是|否||
+|[豆包](https://console.volcengine.com/ark/region:ark+cn-beijing/model)|是|否||
+|[文心一言](https://cloud.baidu.com/doc/WENXINWORKSHOP/index.html)|是|否||
+|[Gemini](https://gemini.google.com/) |是|否||
+|[ChatGLM](https://bigmodel.cn)|是|是||
+|[Groq](https://wow.groq.com/)|是|否||
+|[混元](https://cloud.tencent.com/document/product/1729)|是|否||
+|[MINIMAX](https://api.minimax.chat/)|是|否||
+|[Mistral](https://mistral.ai/)|是|是||
+|[Moonshot AI](https://platform.moonshot.cn/)|是|否||
+|[千问](https://help.aliyun.com/document_detail/2400395.html)|是|是||
+|[阶跃星辰](https://platform.stepfun.com/)|是|否||
+|[星火](https://www.xfyun.cn/doc/spark/Web.html)|是|否||
+|[零一万物](https://platform.lingyiwanwu.com/)|是|是||
+|[HuggingChat](https://huggingface.co/chat/)|否|是||
 
 
 ## 功能
-1. 支持多种大模型：
-   + [Anthropic Claude 模型](https://anthropic.com) 
-   + [Google Gemini 模型](https://developers.generativeai.google)
-   + [Mistral 模型](https://mistral.ai/)
-   + [字节跳动豆包大模型](https://console.volcengine.com/ark/region:ark+cn-beijing/model)
-   + [百度文心一言模型](https://cloud.baidu.com/doc/WENXINWORKSHOP/index.html)
-   + [阿里通义千问模型](https://help.aliyun.com/document_detail/2400395.html)
-   + [讯飞星火认知大模型](https://www.xfyun.cn/doc/spark/Web.html)
-   + [智谱 ChatGLM 模型](https://bigmodel.cn)
-   + [腾讯混元大模型](https://cloud.tencent.com/document/product/1729)
-   + [Moonshot AI](https://platform.moonshot.cn/)
-   + [百川大模型](https://platform.baichuan-ai.com)
-   + [MINIMAX](https://api.minimax.chat/)
-   + [Groq](https://wow.groq.com/)
-   + [零一万物](https://platform.lingyiwanwu.com/)
-   + [阶跃星辰](https://platform.stepfun.com/)
-   + [CozeCn](https://www.coze.cn/)
-   + [CozeCom](https://www.coze.com/)
-   + [Cohere](https://cohere.com/)
-   + [DeepSeek](https://www.deepseek.com/)
-   + [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/)
 
+1. 兼容符合OpenAI接口的大语言模型
 
-2. 兼容符合OpenAI接口的大语言模型
-3. 同时和多个大语言模型聊天
-4. 自定义智能体
+2. 同时和多个大语言模型聊天
 
+3. 自定义智能体
+
+4. 随时启用/禁用任何模型
+
+5. 一键继承其他模型的聊天记录
+
+6. 支持多语言（中文、英语）
+
+7. 支持 Windows，macOS 和 Linux
+
+## 隐私
+
+所有的聊天记录、设置和登录数据都保存在您的计算机本地。
 
 ## 贡献
 
 欢迎对本项目进行贡献！如果你有任何建议或发现了问题，请提交 issue 或 pull request。
 
-
 ## Star history
 
 [![Star History Chart](https://api.star-history.com/svg?repos=godgodgame/open-all&type=Date)](https://star-history.com/#godgodgame/open-all&Date)
 
-
 ## 许可证
 
 详细信息请参阅[LICENSE](https://github.com/godgodgame/open-all/blob/main/LICENSE)文件。
- 
- 
